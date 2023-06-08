@@ -1,0 +1,36 @@
+/* selector or group of selectors separated by comma
+ {
+    property : value;
+  } */
+
+  /* . is used for class */
+  /* # is used for id  */
+
+  /* inline css : css is added to the elements directly using the style attribute.
+  internal css : css is added in the style tag inside the head tag 
+  external css : css is kept in a separate .css file  */
+
+  /* priority level when the same tag is given all the three types of css :
+   1-inline css
+   2-internal css
+   3-external css */
+
+   /* type link:css in html file to add the css file  */
+
+   /* Properties of p tag 
+   1-color
+   2-background-color
+   3-border:2px solid red 
+   4-font-style
+   5-font-family
+   6-font-size(in px)
+   7-line-height(in em)
+   8-font-weight
+   */
+
+   p{
+    font-family: 'Dancing Script', cursive;
+    
+   }
+  
+   /* use pixabay and unsplash for images   */

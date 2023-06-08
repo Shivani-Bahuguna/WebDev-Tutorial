@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+            
+        }
+        #header{
+            border:2px solid red;
+            height: 10vh;
+            width: 100%;
+        }
+        #left-section{
+            border: 2px solid green;
+            position: fixed;
+            width: 20%;
+            height: 87vh;
+            display: flex;
+            flex-direction: column;
+        }
+        #upperleft,#middleleft{
+            border: 2px solid yellow;
+            height: 20vh;
+        }
+        #lowerleft{
+            border: 2px solid yellow;
+            height: 40vh;
+            overflow: auto;
+            
+            
+        }
+        ::-webkit-scrollbar{
+            width: 5px;
+        }
+        ::-webkit-scrollbar-thumb{
+            background: white;
+            border-radius: 10px;
+        }
+        .boxes{
+            border: 2px solid red;
+            height: auto;
+        }
+
+        #rightsection{
+            border:2px solid red;
+            float:right;
+            height: 80vh;
+            width: 40%;
+            
+            display: flex;
+            flex-direction: column;
+        }
+        #rightscroll{
+            border: 2px solid yellow;
+            height: 70vh;
+            overflow: auto;
+        }
+        .rightbox{
+            border: 2px solid red;
+            height: 20vh;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <p>this is header</p>
+    </div>
+
+    <div id="left-section">
+        <div id="upperleft"><p>this is upperleft</p></div>
+        <div id="middleleft"><p>this is middle left</p></div>
+        <div id="lowerleft">
+            <div id="lowerleftinner">
+                <div class="boxes">box1</div>
+                <div class="boxes">box2</div>
+                <div class="boxes">box3</div>
+                <div class="boxes">box4</div>
+                <div class="boxes">box5</div>
+                <div class="boxes">box6</div>
+                <div class="boxes">box7</div>
+                <div class="boxes">box8</div>
+                <div class="boxes">box9</div>
+                <div class="boxes">box10</div>
+                <div class="boxes">box1</div>
+                <div class="boxes">box2</div>
+                <div class="boxes">box3</div>
+                <div class="boxes">box4</div>
+                <div class="boxes">box5</div>
+                <div class="boxes">box6</div>
+                <div class="boxes">box7</div>
+                <div class="boxes">box8</div>
+                <div class="boxes">box9</div>
+                <div class="boxes">box10</div>
+            </div>
+        </div>
+    </div> <!--leftsection ends here-->
+
+    <div id="rightsection">
+        <div id="rightscroll">
+            <div id="rightinner">
+                <div class="rightbox">right box</div>
+                <div class="rightbox">right box</div>
+                <div class="rightbox">right box</div>
+                <div class="rightbox">right box</div>
+                <div class="rightbox">right box</div>
+                <div class="rightbox">right box</div>
+                <div class="rightbox">right box</div>
+                <div class="rightbox">right box</div>
+                <div class="rightbox">right box</div>
+                <div class="rightbox">right box</div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>

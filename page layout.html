@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page layout</title>
+
+    <style>
+          body{
+            background-color: black;
+            color: white;
+          }
+
+          #header{
+            border: 2px solid red;
+            text-align: center;
+            height: 100px;
+            margin-bottom: 20px;
+            
+          }
+
+          #header p{
+            padding: 20px;
+          }
+
+          #flex-container{
+            border: 2px solid green;
+            display: flex;
+            
+            margin-bottom:20px ;
+            height: 500px;
+          }
+
+         
+
+          .flex-item{
+            border: 2px solid blue;
+            }
+
+          #flex-item1{
+            margin: 50px;
+            width: 30%;
+          }
+
+          .flex-item p{
+            padding: 80px;
+          }
+
+          #flex-item2{
+            margin: 100px;
+            width: 60%;
+            display: flex;
+           
+            
+          }
+
+          .flex-subitem{
+            border: 2px solid red;
+            margin: 30px;
+            width: 30%;
+          }
+
+          #footer{
+            border: 2px solid yellow;
+            height: 80px;
+            text-align: center;
+          }
+          #footer p{
+            padding: 20px;
+          }
+
+
+    </style>
+
+</head>
+<body>
+    <div id="header">
+        <p>SAMPLE PAGE LAYOUT</p>
+    </div>
+
+    <div id="flex-container">
+
+        <div class="flex-item" id="flex-item1">
+           <p>this is section1</p>
+        </div>
+
+        <div class="flex-item" id="flex-item2">
+            <div class="flex-subitem">
+               <p>this is box1</p>
+            </div>
+
+            <div class="flex-subitem">
+                <p>this is box2</p>
+            </div>
+
+            <div class="flex-subitem">
+                <p>this is box3</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="footer">
+        <p>this is footer</p>
+    </div>
+</body>
+</html>

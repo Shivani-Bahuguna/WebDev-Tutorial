@@ -1,0 +1,76 @@
+/* block poore line ka space lega
+inline keval apna hi space lega */
+
+/* this is the code to add image in the background */
+
+body{
+    background: url('bgimg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    
+button:hover{
+    cursor: pointer;
+}
+
+
+.top-right{
+    float: right;
+    margin-top: 40px;
+    display: inline;   /*this is done so that it takes only its own space and not the whole*/
+   }
+
+.top-right img{
+    width: 100px;
+    height: 80px;
+    }
+
+.top-right p{
+    color: white;
+    }
+    
+.center{
+    margin-top: 10px;
+    margin-left: 600px;
+    display: inline-block;
+   
+}
+
+.center nav li {
+    display: inline; 
+    color: white;
+     }
+
+.center nav li a{
+    
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+
+.top-left button{
+    display: block;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.form{
+    color: white;
+    display: block;
+    /* border: 4px solid red; */
+    width: 15%;
+    padding: 50px;
+    
+    margin-left: 200px;
+}
+.form input{
+    display:block;
+    padding: 10px;
+    margin: 18px;
+}
+.form button{
+    margin: 10px;
+}
+
+

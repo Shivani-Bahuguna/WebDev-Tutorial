@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testing flexbox</title>
+
+    <style>
+         body{
+            
+            color: white;
+         }
+         .flex-container{
+            margin: 200px;
+            background-color: black;
+            border: 2px solid red;
+             height: 400px;
+        
+             display: flex;
+             align-items: center;
+             justify-content: center;
+         }
+         .flex-item{
+             border: 2px solid green;
+             margin: 10px;
+             height: 200px;
+             width: 200px;
+             text-align: center;
+
+             
+         }
+
+         
+
+         #flex-container2{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+         }
+         .flex-subitem{
+            border: 2px solid red;
+            margin: 10px;
+            
+         }
+
+    </style>
+
+</head>
+<body>
+    <div class="flex-container">
+
+        <div class="flex-item">
+            <p>this is box1</p>
+        </div>
+
+        <div class="flex-item" id="flex-container2">
+
+            <div class="flex-subitem">
+                <p>this is box2</p>
+            </div>
+
+            <div class="flex-subitem">
+               <p>this is box3</p>
+            </div>
+
+            <div class="flex-subitem">
+               <p>this is box 4</p>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
